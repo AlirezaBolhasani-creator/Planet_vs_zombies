@@ -1,0 +1,16 @@
+#ifndef UI_SHOP_H
+#define UI_SHOP_H
+#include "raylib.h"
+#include "plant.h"
+#include <stdbool.h>
+#include "config.h"
+#include <stdio.h>
+void draw_shop_bar(Texture2D shop, Texture2D shop_rect);
+void draw_plant_shop(Texture2D plants_tex[number_of_plants], Plant plants[number_of_plants]);
+void set_plants_shop(Plant plants[number_of_plants], plant_type type, int i);
+int is_on_shop_plant(int x, int y);
+void mouse_on_shop(int x, int y);
+void draw_shop_cooldown(Plant shopPlants[], int number_of_Plants,float cd_pea,float cd_sunflower,float cd_ice_pea,
+                        float cd_rose, float cd_chomper, int sun_points);
+void draw_shop_prices(Plant shopPlants[], int count);
+#endif //UI_SHOP_H
