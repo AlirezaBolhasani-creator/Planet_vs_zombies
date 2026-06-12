@@ -35,40 +35,6 @@ Place defensive units on the grid
 Zombies will spawn in waves
 Prevent zombies from reaching your base
 Survive as long as possible
-📁 Project Structure 
-Planet_vs_zombies/
-│
-│   animation.c
-│   animation.h
-│   bullet.c
-│   bullet.h
-│   config.h
-│   game.c
-│   game.h
-│   grid.c
-│   grid.h
-│   levels.c
-│   levels.h
-│   main.c
-│   mower.c
-│   mower.h
-│   plant.c
-│   plant.h
-│   shop.c
-│   shop.h
-│   sounds.c
-│   sounds.h
-│   src.zip
-│   sun.c
-│   sun.h
-│   ui_menu.c
-│   ui_menu.h
-│   ui_shop.c
-│   ui_shop.h
-│   zombie.c
-│   zombie.h
-└───output
-
 
 📌 Notes
 
